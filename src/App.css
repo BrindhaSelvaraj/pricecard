@@ -70,14 +70,13 @@ li.not-available::before {
   cursor: pointer;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
   .card-container {
-    flex-direction: row; /* Display cards in a row */
-    flex-wrap: nowrap; /* Prevent cards from wrapping to the next row */
+    flex-direction: column; /* Display cards in a column */
   }
 
   .card {
-    width: calc(33.33% - 40px); /* One-third width with padding */
-    margin: 0 20px; /* Add space between cards */
+    width: calc(100% - 40px); /* Full width with padding */
+    margin-bottom: 20px; /* Add space between cards */
   }
 }
