@@ -71,17 +71,14 @@ li.not-available::before {
   text-align: center;
 }
 @media screen and (max-width: 767px) {
-  .card {
-    width: calc(100% - 40px);
+  .card-container {
+    display: block; /* Change display to block for stacking */
+    padding: 20px 0; /* Adjust padding for spacing */
+    text-align: center; /* Center cards horizontally */
   }
-}
 
-.btn:hover {
-  background-color: #0056b3;
-}
-
-@media screen and (min-width: 768px) {
   .card {
-    width: calc(33.33% - 40px);
+    width: calc(100% - 40px); /* Full width with padding */
+    margin: 0 auto 20px; /* Center cards vertically and add space between them */
   }
 }
