@@ -71,14 +71,8 @@ li.not-available::before {
   text-align: center;
 }
 @media screen and (max-width: 767px) {
-  .card-container {
-    display: block; /* Change display to block for stacking */
-    padding: 20px 0; /* Adjust padding for spacing */
-    text-align: center; /* Center cards horizontally */
-  }
-
   .card {
     width: calc(100% - 40px); /* Full width with padding */
-    margin: 0 auto 20px; /* Center cards vertically and add space between them */
+    margin: 0 auto 20px; /* Center horizontally and add space between cards */
   }
 }
