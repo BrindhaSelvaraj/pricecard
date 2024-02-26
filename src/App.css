@@ -73,6 +73,6 @@ li.not-available::before {
 @media screen and (max-width: 767px) {
   .card {
     width: calc(100% - 40px); /* Full width with padding */
-    margin: 0 auto 20px; /* Center horizontally and add space between cards */
+    margin-bottom: 20px; /* Add space between cards */
   }
 }
